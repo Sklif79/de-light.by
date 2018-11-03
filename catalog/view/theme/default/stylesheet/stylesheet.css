@@ -943,3 +943,13 @@ h2.price {
 .footer-list a:hover {
 	color: #000;
 }
+
+.main-title {
+	padding: 14px 0 25px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #D0D1CC;
+	font: 300 34px Open Sans, sans-serif;
+	color: #464646;
+	margin: 0 0 20px;
+
+}
