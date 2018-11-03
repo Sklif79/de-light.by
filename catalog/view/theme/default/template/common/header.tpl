@@ -82,28 +82,35 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <div id="logo">
-                    <?php if ($logo) { ?>
-                    <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>"
-                                                        alt="<?php echo $name; ?>" class="img-responsive"/></a>
-                    <?php } else { ?>
-                    <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-                    <?php } ?>
-                </div>
-
-                <div class="header__info">
-                    <div class="header__feedback custom-btn btn-theme__yellow">
-                        заказать обратный звонок
+                <div class="header-inner">
+                    <div id="logo">
+                        <?php if ($logo) { ?>
+                        <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>"
+                                                            alt="<?php echo $name; ?>" class="img-responsive"/></a>
+                        <?php } else { ?>
+                        <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
+                        <?php } ?>
                     </div>
-                    <?php echo $cart; ?>
-                </div>
 
+                    <div class="header__info">
+                        <div class="header__info-phones">
+                            <a href="tel:8888888">+375 29 888 88 88</a>
+                            <a href="tel:8888888">+375 29 888 88 88</a>
+                        </div>
+                        <div class="header__info-btns">
+                            <div class="header__feedback custom-btn btn-theme__yellow">
+                                заказать обратный звонок
+                            </div>
+                            <?php echo $cart; ?>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <?php if ($categories) { ?>
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12 header__navbar container">
                 <nav id="menu" class="navbar">
                     <div class="navbar-header"><span id="category"
                                                      class="visible-xs"><?php echo $text_category; ?></span>
