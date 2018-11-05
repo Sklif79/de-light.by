@@ -822,6 +822,7 @@ h2.price {
 	width: auto;
 	position: relative;
 	z-index: 1;
+	cursor: pointer;
 }
 
 .custom-btn::before {
@@ -952,4 +953,22 @@ h2.price {
 	color: #464646;
 	margin: 0 0 20px;
 
+}
+
+#toup {
+	width: 50px;
+	height: 50px;
+	background: url("../image/up-arrow.png") #f2cb13 center repeat-y;
+	transition: 0.4s;
+	right: 22px;
+	bottom: 70px;
+	z-index: 200;
+	position: fixed;
+	cursor: pointer;
+	display: none;
+}
+
+#toup:hover {
+	background-color: #868686;
+	background-position: 0 -100px;
 }
