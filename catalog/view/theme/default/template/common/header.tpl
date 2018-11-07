@@ -100,9 +100,11 @@
                             <a href="tel:8888888">+375 29 888 88 88</a>
                         </div>
                         <div class="header__info-btns">
-                            <div class="header__feedback custom-btn btn-theme__yellow">
+                            <!--
+                            <div href="#feedback" class="header__feedback custom-btn btn-theme__yellow fancybox">
                                 заказать обратный звонок
                             </div>
+                            -->
                             <?php echo $cart; ?>
                         </div>
                     </div>
