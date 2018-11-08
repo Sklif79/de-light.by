@@ -25,6 +25,7 @@
     <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="catalog/view/javascript/jquery/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css"/>
     <script src="catalog/view/javascript/jquery/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script src="catalog/view/javascript/parallax-slider/js/parallaxSlider.js" type="text/javascript"></script>
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css"/>
     <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
     <?php foreach ($styles as $style) { ?>

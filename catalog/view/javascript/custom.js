@@ -3,18 +3,9 @@ $(document).ready(function () {
     classAfterScroll($('#menu').offset().top, '.header__navbar', 'fixed');
     toUp();
     //feedbackFormSubmit();
-
-    $('.fancybox').fancybox({
-        //closeBtn: true,
-        padding: 0,
-        helpers: {
-            overlay: {
-                css: {
-                    'background': 'rgba(0,0,0,0.65)'
-                }
-            }
-        }
-    });
+    headerClassMainPage();
+    fancybox();
+    parallaxSlider();
 });
 
 
@@ -61,9 +52,9 @@ function feedbackFormSubmit() {
         e.preventDefault();
 
         var $message = $('<div />', {
-            'class': 'popup__messages'
-        }),
-        self = $(this);
+                'class': 'popup__messages'
+            }),
+            self = $(this);
 
         $(this).addClass('loading');
 
@@ -83,9 +74,48 @@ function feedbackFormSubmit() {
                 self.removeClass('loading');
 
                 setTimeout(function () {
-                   $message.remove();
+                    $message.remove();
                 }, 3000);
             }
         });
     });
+}
+
+function headerClassMainPage() {
+    if (window.location.pathname == '/') {
+        $('.header').addClass('header_absolute');
+    }
+}
+
+function fancybox() {
+    $('.fancybox').fancybox({
+        //closeBtn: true,
+        padding: 0,
+        helpers: {
+            overlay: {
+                css: {
+                    'background': 'rgba(0,0,0,0.65)'
+                }
+            }
+        }
+    });
+}
+
+function parallaxSlider() {
+    var $parallaxSlider = $('#parallax-slider');
+
+    if ($parallaxSlider.length) {
+        $parallaxSlider.parallaxSlider({
+            parallaxEffect: "parallax_effect_normal",
+            parallaxInvert: false,
+            animateLayout: "simple-fade-eff",
+            duration: 1500,
+            autoSwitcher: true,
+            autoSwitcherDelay: 10000,
+            scrolling_description: true,
+            slider_navs: false,
+            slider_pagination: "buttons_pagination",
+            liteMode: false
+        });
+    }
 }
