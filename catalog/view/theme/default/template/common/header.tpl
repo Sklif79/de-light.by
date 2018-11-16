@@ -99,12 +99,13 @@
                         <?php } else { ?>
                         <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
                         <?php } ?>
+                        <div class="logo__subtitle">Продажа светильников<br> торговой марки "Максисвет"</div>
                     </div>
 
                     <div class="header__info">
                         <div class="header__info-phones">
-                            <a href="tel:8888888">+375 29 888 88 88</a>
-                            <a href="tel:8888888">+375 29 888 88 88</a>
+                            <a href="tel:+375293815938">+375 29 381 59 38</a>
+                            <a href="tel:+375293737057">+375 29 373 70 57</a>
                         </div>
                         <div class="header__info-btns">
                             <!--

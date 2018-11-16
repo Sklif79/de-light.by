@@ -804,6 +804,13 @@ input[type='submit'] {
 	padding-top: 55px;
 }
 
+.logo__subtitle {
+	font-size: 13px;
+	letter-spacing: 2px;
+	line-height: 15px;
+	color: #656565;
+}
+
 #top, .breadcrumb {
 	display: none;
 }
@@ -1009,6 +1016,7 @@ input[type='submit'] {
 
 .footer__contacts {
 	text-align: right;
+	margin-top: 20px;
 }
 
 .footer__phone {
@@ -1018,7 +1026,7 @@ input[type='submit'] {
 }
 
 .footer-list {
-	margin: 0;
+	margin: 17px 0 0;
 }
 
 .footer-list li {

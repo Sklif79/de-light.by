@@ -4,7 +4,7 @@
             <div class="footer__inner">
                 <div class="footer__left">
                     <div class="footer__logo-wrap">
-                        <a href="/"><img src="" alt="" class="footer__logo">footer logo</a>
+                        <a href="/"><img src="/catalog/view/theme/default/image/logo-maxisvet.png" alt="" class="footer__logo"></a>
                         <div class="footer__copy">
                             Поставщик интерьерного освещения <br/>
                             &copy;<?php echo date('Y') ?> Все права защищены.
@@ -17,11 +17,13 @@
                     </ul>
                 </div>
                 <div class="footer__contacts">
-                    <a href="tel:88124073542" class="footer__phone">8 812 407 35 42</a> <br/>
-                    <a href="tel:88124073542" class="footer__phone">8 812 407 35 42</a> <br/>
-                    Электронная почта: <a href="mailto:info@maxisvet.com">info@maxisvet.com</a><br/>
-                    Адрес: г. Санкт-Петербург,<br/>
-                    ул. Мебельная, д.12, к.1-Д
+                    <a href="tel:+375293815938" class="footer__phone">+375 29 381 59 38</a> <br/>
+                    <a href="tel:+375293737057" class="footer__phone">+375 29 373 70 57</a> <br/>
+                    Электронная почта: <a href="mailto:info@de-light.by">info@de-light.by</a><br/>
+                    ТД &laquo;Ждановичи&raquo;<br/>
+                    Минск ул. Тимирязева, 123 к.1<br/>
+                    ТЦ &laquo;Открытая строительная площадка&raquo;<br/>
+                    павильоны: №503, №72
                 </div>
             </div>
         </div>
