@@ -1205,8 +1205,11 @@ input[type='submit'] {
 		display: none;
 	}
 }
-@media (max-width: 480px) {
-	.parallax-slider .extra-slider-wrap { height:550px; }
+@media (max-width: 640px) {
+	.parallax-slider .extra-slider-wrap { height:380px; }
+}
+@media (max-width: 400px) {
+	.parallax-slider .extra-slider-wrap { height:230px; }
 }
 .parallax-slider #mainCaptionHolder .container {
 	bottom:0;
@@ -2012,6 +2015,12 @@ h2.main-page-title {
 	}
 }
 
+@media (max-width: 480px) {
+	.parallax-slider {
+		margin-top: 140px;
+	}
+}
+
 @media (max-width: 400px) {
 	.logo__subtitle {
 		display: none;
@@ -2026,6 +2035,17 @@ h2.main-page-title {
 	}
 
 	.parallax-slider {
-		margin-top: 300px;
+		margin-top: 260px;
+		height: 230px;
+	}
+}
+
+@media (max-width: 320px) {
+	.parallax-slider {
+		height: 165px;
+	}
+
+	.parallax-slider .extra-slider-wrap {
+		height: 165px;
 	}
 }
