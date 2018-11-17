@@ -32,6 +32,7 @@
             </div>
             <div class="col-sm-3"><strong><?php echo $text_telephone; ?></strong><br>
               <?php echo $telephone; ?><br />
+              +375 29 373 70 57
               <br />
               <?php if ($fax) { ?>
               <strong><?php echo $text_fax; ?></strong><br>
@@ -52,6 +53,9 @@
           </div>
         </div>
       </div>
+
+      <div id="map" class="map"></div>
+
       <?php if ($locations) { ?>
       <h3><?php echo $text_store; ?></h3>
       <div class="panel-group" id="accordion">
@@ -142,3 +146,33 @@
     <?php echo $column_right; ?></div>
 </div>
 <?php echo $footer; ?>
+
+<script>
+    $(document).ready(function () {
+        ymaps.ready(init);
+        var myMap,
+            myPlacemark;
+
+        function init(){
+            myMap = new ymaps.Map("map", {
+                center: [53.934239, 27.452819],
+                zoom: 17
+            });
+
+            myPlacemark = new ymaps.Placemark([53.934239, 27.452819], {
+                iconContent: 'павильон 503'
+            }, {
+                preset: "islands#redStretchyIcon"
+            });
+
+            myPlacemarkTwo = new ymaps.Placemark([53.933855, 27.454538], {
+                iconContent: 'павильон 72'
+            }, {
+                preset: "islands#yellowStretchyIcon"
+            });
+
+            myMap.geoObjects.add(myPlacemark);
+            myMap.geoObjects.add(myPlacemarkTwo);
+        }
+    });
+</script>

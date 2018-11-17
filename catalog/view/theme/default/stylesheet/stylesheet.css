@@ -1958,6 +1958,40 @@ h2.main-page-title {
 	color: #868686;
 }
 
+.btn-primary {
+	background:#f2cb13;
+	border-color: #f2bd00;
+	color: #333;
+	transition: background 0.1s;
+}
+
+.btn-primary:hover {
+	background: #f2bd00;
+	color: #333;
+	border-color: #f2bd00;
+}
+
+.alert-info {
+	color: #333;
+	background-color: rgba(242,222,86,0.55);
+	border-color: #f2de56;
+}
+
+.btn-link {
+	color: #333;
+}
+
+.form-control:focus {
+	border-color: #f2bd00;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(242,222,86,0.55);
+}
+
+.map {
+	width: 100%;
+	height: 600px;
+	margin: 40px 0;
+}
+
 @media (max-width: 880px) {
 	.parallax-slider-img {
 		background-size: contain!important;
@@ -2003,6 +2037,10 @@ h2.main-page-title {
 		margin-left: -15px;
 		margin-right: -15px;
 	}
+
+	.map {
+		height: 400px;
+	}
 }
 
 @media (max-width: 640px) {
@@ -2018,6 +2056,10 @@ h2.main-page-title {
 @media (max-width: 480px) {
 	.parallax-slider {
 		margin-top: 140px;
+	}
+
+	.map {
+		height: 300px;
 	}
 }
 

@@ -34,6 +34,7 @@
     <script src="catalog/view/javascript/cherry-parallax/js/cherry.parallax.js" type="text/javascript"></script>
     <script src="catalog/view/javascript/cherry-parallax/js/jquery.mousewheel.min.js" type="text/javascript"></script>
     <script src="catalog/view/javascript/cherry-parallax/js/jquery.simplr.smoothscroll.min.js" type="text/javascript"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 
     <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
     <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
