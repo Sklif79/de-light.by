@@ -1201,6 +1201,9 @@ input[type='submit'] {
 }
 @media (max-width: 767px) {
 	.parallax-slider .extra-slider-wrap { height:600px; }
+	.slider_caption {
+		display: none;
+	}
 }
 @media (max-width: 480px) {
 	.parallax-slider .extra-slider-wrap { height:550px; }
@@ -1944,4 +1947,85 @@ h2.main-page-title {
 	-moz-transition:0.6s;
 	-o-transition:0.6s;
 	transition:0.6s;
+}
+
+#menu .btn-navbar, #menu .btn-navbar:hover, #menu .btn-navbar:focus, #menu .btn-navbar:active {
+	background: #f2cb13;
+	border-color: #f2c210;
+	color: #868686;
+}
+
+@media (max-width: 880px) {
+	.parallax-slider-img {
+		background-size: contain!important;
+	}
+
+	.header {
+		padding-top: 0;
+	}
+
+	.parallax-slider {
+		margin-top: 130px;
+	}
+}
+
+@media (max-width: 768px) {
+	.footer__inner {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer-list {
+		display: none;
+	}
+
+	.footer__logo-wrap {
+		margin: 0;
+	}
+
+	.parallax-box__style-2 {
+		margin-bottom: 0;
+	}
+
+	.header__info {
+		flex-direction: column;
+	}
+
+	.header__info-phones {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	#menu {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+}
+
+@media (max-width: 640px) {
+	.parallax-slider {
+		margin-top: 85px;
+	}
+
+	.parallax-slider {
+		height: 380px;
+	}
+}
+
+@media (max-width: 400px) {
+	.logo__subtitle {
+		display: none;
+	}
+
+	.header-inner {
+		flex-direction: column;
+	}
+
+	#logo img {
+		margin: 0 auto;
+	}
+
+	.parallax-slider {
+		margin-top: 300px;
+	}
 }

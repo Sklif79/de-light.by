@@ -18,7 +18,7 @@
     <div class="container">
         <h2 class="main-page-title theme-color_yellow">наш ассортимент</h2>
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-md-3">
                 <div class="assortment__item lazy-load-box trigger effect-slidefromleft" data-delay="800" data-speed="600">
                     <div class="assortment__header theme-bg_light-gray">
                         <a href="" class="assortment__item-lnk">
@@ -34,7 +34,7 @@
                     <a href="/katalog" class="assortment__lnk theme-bg_light-gray">Каталог</a>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-md-3">
                 <div class="assortment__item lazy-load-box trigger effect-slidefromleft" data-delay="600" data-speed="600">
                     <div class="assortment__header theme-bg_gray">
                         <a href="" class="assortment__item-lnk">
@@ -51,7 +51,7 @@
                     <a href="/katalog" class="assortment__lnk theme-bg_gray">Каталог</a>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-md-3">
                 <div class="assortment__item lazy-load-box trigger effect-slidefromleft" data-delay="400" data-speed="600">
                     <div class="assortment__header theme-bg_dark-gray">
                         <a href="" class="assortment__item-lnk">
@@ -67,7 +67,7 @@
                     <a href="/katalog" class="assortment__lnk theme-bg_dark-gray">Каталог</a>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-md-3">
                 <div class="assortment__item lazy-load-box trigger effect-slidefromleft" data-delay="200" data-speed="600">
                     <div class="assortment__header theme-bg_yellow">
                         <a href="" class="assortment__item-lnk">
