@@ -19,7 +19,7 @@
         <h2 class="main-page-title theme-color_yellow">наш ассортимент</h2>
         <div class="row">
             <div class="col-sm-3">
-                <div class="assortment__item">
+                <div class="assortment__item lazy-load-box trigger effect-slidefromleft" data-delay="800" data-speed="600">
                     <div class="assortment__header theme-bg_light-gray">
                         <a href="" class="assortment__item-lnk">
                             <img src="/catalog/view/theme/default/image/assortment/assortment_1.png" alt=""
@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="col-sm-3">
-                <div class="assortment__item">
+                <div class="assortment__item lazy-load-box trigger effect-slidefromleft" data-delay="600" data-speed="600">
                     <div class="assortment__header theme-bg_gray">
                         <a href="" class="assortment__item-lnk">
                             <img src="/catalog/view/theme/default/image/assortment/assortment_2.png" alt=""
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="col-sm-3">
-                <div class="assortment__item">
+                <div class="assortment__item lazy-load-box trigger effect-slidefromleft" data-delay="400" data-speed="600">
                     <div class="assortment__header theme-bg_dark-gray">
                         <a href="" class="assortment__item-lnk">
                             <img src="/catalog/view/theme/default/image/assortment/assortment_3.png" alt=""
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div class="col-sm-3">
-                <div class="assortment__item">
+                <div class="assortment__item lazy-load-box trigger effect-slidefromleft" data-delay="200" data-speed="600">
                     <div class="assortment__header theme-bg_yellow">
                         <a href="" class="assortment__item-lnk">
                             <img src="/catalog/view/theme/default/image/assortment/assortment_4.png" alt=""
@@ -86,16 +86,15 @@
         </div>
     </div>
 </section>
-<div class="container">
-    <div class="row"><?php echo $column_left; ?>
-        <?php if ($column_left && $column_right) { ?>
-        <?php $class = 'col-sm-6'; ?>
-        <?php } elseif ($column_left || $column_right) { ?>
-        <?php $class = 'col-sm-9'; ?>
-        <?php } else { ?>
-        <?php $class = 'col-sm-12'; ?>
-        <?php } ?>
-        <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?><?php echo $content_bottom; ?></div>
-        <?php echo $column_right; ?></div>
-</div>
+<section class="parallax-box image-parallax-box parallax-box__style-2">
+    <div class="parallax-content">
+        <section class="lazy-load-box trigger effect-zoomin " data-delay="0" data-speed="600" style="-webkit-transition: all 600ms ease; -moz-transition: all 600ms ease; -ms-transition: all 600ms ease; -o-transition: all 600ms ease; transition: all 600ms ease;">
+            <span class="h2">Каталог продукции 2017<br />
+MAXISVET Simple</span><br />
+            <a href="/katalog.pdf" title="СКАЧАТЬ" class="btn btn-primary btn-normal btn-inline btn-primary__style-1" target="_self">СКАЧАТЬ</a><!-- .btn -->
+        </section>
+        <div class="clear"></div>
+    </div>
+    <div class="parallax-bg" data-parallax-type="image" data-img-url="/catalog/view/theme/default/image/parallax/paralax_new3.jpg" data-speed="fixed" data-invert="false"></div>
+</section>
 <?php echo $footer; ?>

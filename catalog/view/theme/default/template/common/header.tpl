@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <!--[if IE 8 ]>
-<html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>" class="ie8"><![endif]-->
+<html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>" class="ie8 cssanimations"><![endif]-->
 <!--[if IE 9 ]>
-<html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>" class="ie9"><![endif]-->
+<html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>" class="ie9 cssanimations"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
-<html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+<html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>" class="cssanimations">
 <!--<![endif]-->
 <head>
     <meta charset="UTF-8"/>
@@ -26,11 +26,17 @@
     <script src="catalog/view/javascript/parallax-slider/js/parallaxSlider.js" type="text/javascript"></script>
     <script src="catalog/view/javascript/cherry-lazy-load/js/device.min.js" type="text/javascript"></script>
     <script src="catalog/view/javascript/cherry-lazy-load/js/cherry.lazy-load.js" type="text/javascript"></script>
+    <script src="catalog/view/javascript/jquery/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="catalog/view/javascript/jquery/jquery.ba-resize.min.js" type="text/javascript"></script>
+    <script src="catalog/view/javascript/cherry-parallax/js/cherry.parallax.js" type="text/javascript"></script>
+    <script src="catalog/view/javascript/cherry-parallax/js/jquery.mousewheel.min.js" type="text/javascript"></script>
+    <script src="catalog/view/javascript/cherry-parallax/js/jquery.simplr.smoothscroll.min.js" type="text/javascript"></script>
 
     <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
     <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="catalog/view/javascript/jquery/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css"/>
     <link href="catalog/view/javascript/cherry-lazy-load/css/lazy-load.css" rel="stylesheet" type="text/css"/>
+    <link href="catalog/view/javascript/cherry-parallax/css/parallax.css" rel="stylesheet" type="text/css"/>
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css"/>
     <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
 
