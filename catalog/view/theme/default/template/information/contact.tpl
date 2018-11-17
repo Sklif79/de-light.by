@@ -49,6 +49,7 @@
               <strong><?php echo $text_comment; ?></strong><br />
               <?php echo $comment; ?>
               <?php } ?>
+              <img src="/catalog/view/theme/default/image/contact-bra.jpg" alt="" class="map-img">
             </div>
           </div>
         </div>
