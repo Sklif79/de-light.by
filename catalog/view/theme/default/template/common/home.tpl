@@ -14,6 +14,9 @@
         </li>
     </ul>
 </section>
+<section class="banner">
+    <img src="http://advanced-eyecare.com/wp-content/uploads/2011/07/Untitled-design-7.jpg" alt="">
+</section>
 <section class="assortment">
     <div class="container">
         <h2 class="main-page-title theme-color_yellow">наш ассортимент</h2>
@@ -86,15 +89,15 @@
         </div>
     </div>
 </section>
-<section class="parallax-box image-parallax-box parallax-box__style-2">
+<!--<section class="parallax-box image-parallax-box parallax-box__style-2">
     <div class="parallax-content">
         <section class="lazy-load-box trigger effect-zoomin " data-delay="0" data-speed="600" style="-webkit-transition: all 600ms ease; -moz-transition: all 600ms ease; -ms-transition: all 600ms ease; -o-transition: all 600ms ease; transition: all 600ms ease;">
             <span class="h2">Каталог продукции 2017<br />
 MAXISVET Simple</span><br />
-            <a href="/katalog.pdf" title="СКАЧАТЬ" class="btn btn-primary btn-normal btn-inline btn-primary__style-1" target="_self">СКАЧАТЬ</a><!-- .btn -->
+            <a href="/katalog.pdf" title="СКАЧАТЬ" class="btn btn-primary btn-normal btn-inline btn-primary__style-1" target="_self">СКАЧАТЬ</a>
         </section>
         <div class="clear"></div>
     </div>
     <div class="parallax-bg" data-parallax-type="image" data-img-url="/catalog/view/theme/default/image/parallax/paralax_new3.jpg" data-speed="fixed" data-invert="false"></div>
-</section>
+</section>-->
 <?php echo $footer; ?>

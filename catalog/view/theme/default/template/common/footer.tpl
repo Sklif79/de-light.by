@@ -20,10 +20,10 @@
                     <a href="tel:+375293815938" class="footer__phone">+375 29 381 59 38</a> <br/>
                     <a href="tel:+375293737057" class="footer__phone">+375 29 373 70 57</a> <br/>
                     Электронная почта: <a href="mailto:info@de-light.by">info@de-light.by</a><br/>
-                    ТД &laquo;Ждановичи&raquo;<br/>
+                    <!--ТД &laquo;Ждановичи&raquo;<br/>
                     Минск ул. Тимирязева, 123 к.1<br/>
                     ТЦ &laquo;Открытая строительная площадка&raquo;<br/>
-                    павильоны: №503, №72
+                    павильоны: №503, №72-->
                 </div>
             </div>
         </div>

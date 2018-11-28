@@ -102,14 +102,22 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="header-inner">
-                    <div id="logo">
-                        <?php if ($logo) { ?>
-                        <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>"
-                                                            alt="<?php echo $name; ?>" class="img-responsive"/></a>
-                        <?php } else { ?>
-                        <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-                        <?php } ?>
-                        <div class="logo__subtitle">Продажа светильников<br> торговой марки "Максисвет"</div>
+                    <div class="header-logo-wrap">
+                        <div id="logo">
+                            <?php if ($logo) { ?>
+                            <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>"
+                                                                alt="<?php echo $name; ?>" class="img-responsive"/></a>
+                            <?php } else { ?>
+                            <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
+                            <?php } ?>
+                            <div class="logo__subtitle">Продажа светильников<br> торговой марки "Максисвет"</div>
+                        </div>
+                        <div class="header__contacts">
+                            ТД &laquo;Ждановичи&raquo;<br/>
+                            Минск ул. Тимирязева, 123 к.1<br/>
+                            ТЦ &laquo;Открытая строительная площадка&raquo;<br/>
+                            павильоны: <b>№503</b>, <b>№72</b>
+                        </div>
                     </div>
 
                     <div class="header__info">
