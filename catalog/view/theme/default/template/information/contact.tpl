@@ -174,6 +174,8 @@
 
             myMap.geoObjects.add(myPlacemark);
             myMap.geoObjects.add(myPlacemarkTwo);
+
+            myMap.setType('yandex#hybrid');
         }
     });
 </script>
