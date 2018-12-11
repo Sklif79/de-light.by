@@ -12,7 +12,7 @@
                     </div>
                     <ul class="footer-list list-unstyled">
                         <li><a href="/about_us">О нас</a></li>
-                        <li><a href="/katalog">Каталог</a></li>
+                        <li><a href="/svetilniki">Каталог</a></li>
                         <li><a href="/contact">Контакты</a></li>
                     </ul>
                 </div>

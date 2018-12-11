@@ -24,7 +24,7 @@
             <div class="col-md-3">
                 <div class="assortment__item lazy-load-box trigger effect-slidefromleft" data-delay="800" data-speed="600">
                     <div class="assortment__header theme-bg_light-gray">
-                        <a href="" class="assortment__item-lnk">
+                        <a href="/svetilniki" class="assortment__item-lnk">
                             <img src="/catalog/view/theme/default/image/assortment/assortment_1.png" alt=""
                                  class="assortment__img">
                         </a>
@@ -34,13 +34,13 @@
                         Востребованные коллекции массового спроса: Универсальная классика, Еврокаркасы, Панели, Буше,
                         Споты и Модерн. Люстры, бра, подвесы с широким разнообразием фактур и материалов.
                     </div>
-                    <a href="/katalog" class="assortment__lnk theme-bg_light-gray">Каталог</a>
+                    <a href="/svetilniki" class="assortment__lnk theme-bg_light-gray">Каталог</a>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="assortment__item lazy-load-box trigger effect-slidefromleft" data-delay="600" data-speed="600">
                     <div class="assortment__header theme-bg_gray">
-                        <a href="" class="assortment__item-lnk">
+                        <a href="/svetilniki" class="assortment__item-lnk">
                             <img src="/catalog/view/theme/default/image/assortment/assortment_2.png" alt=""
                                  class="assortment__img">
                         </a>
@@ -51,13 +51,13 @@
                         уютная Керамика, изящная Флористика и пр. В коллекциях представлены последние мировые тенденции
                         дизайна.
                     </div>
-                    <a href="/katalog" class="assortment__lnk theme-bg_gray">Каталог</a>
+                    <a href="/svetilniki" class="assortment__lnk theme-bg_gray">Каталог</a>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="assortment__item lazy-load-box trigger effect-slidefromleft" data-delay="400" data-speed="600">
                     <div class="assortment__header theme-bg_dark-gray">
-                        <a href="" class="assortment__item-lnk">
+                        <a href="/svetilniki" class="assortment__item-lnk">
                             <img src="/catalog/view/theme/default/image/assortment/assortment_3.png" alt=""
                                  class="assortment__img">
                         </a>
@@ -67,13 +67,13 @@
                         Оригинальные и высококачественные светильники отечественного производства, разработанные нашими
                         дизайнерами, учитывают актуальные модные тенденции, и предпочтения российских покупателей.
                     </div>
-                    <a href="/katalog" class="assortment__lnk theme-bg_dark-gray">Каталог</a>
+                    <a href="/svetilniki" class="assortment__lnk theme-bg_dark-gray">Каталог</a>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="assortment__item lazy-load-box trigger effect-slidefromleft" data-delay="200" data-speed="600">
                     <div class="assortment__header theme-bg_yellow">
-                        <a href="" class="assortment__item-lnk">
+                        <a href="/svetilniki" class="assortment__item-lnk">
                             <img src="/catalog/view/theme/default/image/assortment/assortment_4.png" alt=""
                                  class="assortment__img">
                         </a>
@@ -83,7 +83,7 @@
                         Совершенный дизайн, инновационные технологии, надежное качество. Люстры и бра в коллекциях LOFT,
                         MODERN, NEO CLASSIC, HI-TECH, разработанные по эскизам итальянских дизайнеров.
                     </div>
-                    <a href="/katalog" class="assortment__lnk theme-bg_yellow">Каталог</a>
+                    <a href="/svetilniki" class="assortment__lnk theme-bg_yellow">Каталог</a>
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@
         <section class="lazy-load-box trigger effect-zoomin " data-delay="0" data-speed="600" style="-webkit-transition: all 600ms ease; -moz-transition: all 600ms ease; -ms-transition: all 600ms ease; -o-transition: all 600ms ease; transition: all 600ms ease;">
             <span class="h2">Каталог продукции 2017<br />
 MAXISVET Simple</span><br />
-            <a href="/katalog.pdf" title="СКАЧАТЬ" class="btn btn-primary btn-normal btn-inline btn-primary__style-1" target="_self">СКАЧАТЬ</a>
+            <a href="/svetilniki.pdf" title="СКАЧАТЬ" class="btn btn-primary btn-normal btn-inline btn-primary__style-1" target="_self">СКАЧАТЬ</a>
         </section>
         <div class="clear"></div>
     </div>

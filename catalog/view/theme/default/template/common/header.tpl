@@ -151,7 +151,7 @@
                         <ul class="nav navbar-nav">
                             <li><a class="nav__lnk" href="/">Главная</a></li>
                             <li><a class="nav__lnk" href="/about_us">О нас</a></li>
-                            <li><a class="nav__lnk" href="/katalog">Каталог</a></li>
+                            <li><a class="nav__lnk" href="/svetilniki">Каталог</a></li>
                             <li><a class="nav__lnk" href="/contact">Контакты</a></li>
 
                             <!--
