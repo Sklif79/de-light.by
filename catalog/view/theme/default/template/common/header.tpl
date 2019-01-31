@@ -96,9 +96,6 @@
 </nav>
  -->
 
-<!--
- <?php echo $search; ?>
- -->
 
 <header class="header">
     <div class="container">
@@ -135,6 +132,7 @@
                             </div>
                             -->
                             <?php echo $cart; ?>
+                            <?php echo $search; ?>
                         </div>
                     </div>
                 </div>
