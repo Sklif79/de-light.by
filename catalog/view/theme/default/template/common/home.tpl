@@ -15,7 +15,22 @@
     </ul>
 </section>
 <section class="banner">
-    <img src="http://advanced-eyecare.com/wp-content/uploads/2011/07/Untitled-design-7.jpg" alt="">
+    <div class="banner-slider banner_desktop js_slider">
+        <div>
+            <img src="/image/Banner/Banner_1_1920x500px_animation.gif" alt="">
+        </div>
+        <div>
+            <img src="/image/Banner/Banner_2_1920x500px_animation.gif" alt="">
+        </div>
+    </div>
+    <div class="banner-slider banner_mobile js_slider">
+        <div>
+            <img src="/image/Banner/Banner-1_1_640x500px_animation.gif" alt="">
+        </div>
+        <div>
+            <img src="/image/Banner/banner_2_640x500px_animation.gif" alt="">
+        </div>
+    </div>
 </section>
 <section class="assortment">
     <div class="container">

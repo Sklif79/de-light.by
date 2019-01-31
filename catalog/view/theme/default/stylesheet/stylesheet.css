@@ -1724,7 +1724,7 @@ h2.main-page-title {
 }
 
 .assortment {
-	padding-top: 90px;
+	padding-top: 70px;
 	padding-bottom: 90px;
 }
 
@@ -2018,8 +2018,20 @@ h2.main-page-title {
 	max-height: 170px;
 }
 
-.banner {
-	margin-bottom: 30px;
+.banner-slider{
+	display: none;
+}
+
+@media (max-width: 640px) {
+	.banner_mobile {
+		display: block;
+	}
+}
+
+@media (min-width: 641px) {
+	.banner_desktop {
+		display: block;
+	}
 }
 
 .banner img {

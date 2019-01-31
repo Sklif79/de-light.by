@@ -6,6 +6,7 @@ $(document).ready(function () {
     headerClassMainPage();
     fancybox();
     parallaxSlider();
+    slickSlider();
 });
 
 
@@ -118,4 +119,17 @@ function parallaxSlider() {
             liteMode: false
         });
     }
+}
+
+function slickSlider() {
+    $('.js_slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'ease-out',
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false
+    });
 }
